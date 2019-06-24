@@ -1,0 +1,22 @@
+{
+  "name": "aws-lambda-express-test",
+  "version": "1.0.0",
+  "description": "AWS Lambda Express Test",
+  "main": "app.js",
+  "author": {
+    "name": "Ruhan de Oliveira Baiense",
+    "email": "rdgitarr@gmail.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "aws-serverless-express": "^3.3.6",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.dev.js",
+    "transpile": "babel --presets es2015 src --out-dir dist"
+  }
+}
